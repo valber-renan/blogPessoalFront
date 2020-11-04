@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ruslan+Display&display=swap');
 
-h3{
+h1{
     font-family: 'Ruslan Display', cursive;
     font-size: 30pt;
     color:tomato;
     text-shadow: 1px 1px 1px rgba(0,0,.6);
 }
+

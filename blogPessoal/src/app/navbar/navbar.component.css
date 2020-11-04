@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ruslan+Display&display=swap');
+
 .texto{
+    color:tomato;
+    text-shadow: 1px 1px 1px rgba(0,0,.6);
+    font-family: 'Ruslan Display', cursive;
     letter-spacing: .2rem;
-    font-size: 16pt;
+    font-size: 20pt;
 }
+
+
