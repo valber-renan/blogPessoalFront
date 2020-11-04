@@ -12,7 +12,7 @@ export class CadastroComponent implements OnInit {
 
   user:User= new User()
   senha: string
-
+ 
   constructor(
     private authService:AuthService,
     private router:Router

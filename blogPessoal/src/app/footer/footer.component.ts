@@ -14,7 +14,7 @@ export class FooterComponent implements OnInit {
   faInstagram = faInstagram
   faLinkedin = faLinkedin
   
-  constructor() { }
+  constructor() { } 
 
   ngOnInit(): void {
   }
