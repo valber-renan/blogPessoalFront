@@ -15,7 +15,7 @@ export class PostagemService {
   }
 
   getAllPostagens() {
-    return this.http.get('http://localhost:8080/postagens', this.token)
+    return this.http.get('http://localhost:8080/postagens', this.token)//https://blog-valber.herokuapp.com
   }
   getByIdPostagem(id: number){
     return this.http.get(`http://localhost:8080/postagens/${id}`, this.token)
@@ -33,3 +33,4 @@ export class PostagemService {
     return this.http.get(`http://localhost:8080/postagens/titulo/${titulo}`, this.token)
   }
 }
+ 
